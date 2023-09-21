@@ -1,2 +1,7 @@
-nav:  
-  - Home: 'index.md'
+site_name: 'My Documentation'
+
+nav:
+  - Home: 'docs/index.md'
+
+theme:
+  name: 'material'
