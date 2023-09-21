@@ -1,13 +1,10 @@
 apiVersion: backstage.io/v1alpha1
-kind: Document
+kind: Component
 metadata:
-  name: backstage-docs
-  description: An example of a Backstage application.
+  name: my-documentation
+  description: "My standalone documentation"
   # Example for optional annotations
   annotations:
-    github.com/project-slug: backstage/backstage
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: document
-  owner: guests
-  lifecycle: experimental
+  type: documentation
