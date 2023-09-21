@@ -1,7 +1,7 @@
 site_name: 'My Documentation'
 
 nav:
-  - Home: 'docs/index.md'
+  - Home: '../docs/index.md'
 
 theme:
   name: 'material'
